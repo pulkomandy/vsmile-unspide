@@ -37,34 +37,30 @@
 .stabs "tilemap:S21=ar1;0;2047;1",40,0,0,         8
 .stabs "main:F1",36,0,0,     32846
 .stabn 0x44,0,26,         0
-.stabn 0xa6,0,0,4
-.stabn 0x44,0,28,         7
-.stabn 0x44,0,30,        14
-.stabn 0x44,0,31,        19
-.stabn 0x44,0,33,        25
-.stabn 0x44,0,34,        30
-.stabn 0x44,0,35,        35
-.stabn 0x44,0,36,        40
-.stabn 0x44,0,37,        45
-.stabn 0x44,0,38,        50
-.stabn 0x44,0,40,        55
-.stabn 0x44,0,41,        65
-.stabn 0x44,0,40,        72
-.stabn 0x44,0,43,        78
-.stabn 0x44,0,44,        84
-.stabn 0x44,0,46,       100
-.stabn 0x44,0,47,       106
-.stabn 0x44,0,49,       114
-.stabn 0x44,0,50,       131
-.stabn 0x44,0,49,       149
-.stabn 0x44,0,53,       155
-.stabn 0x44,0,54,       158
-.stabn 0x44,0,54,       158
-.stabn 0xc0,0,0,         7
-.stabs "i:1",128,0,0,0
-.stabs "message:22=*2",128,0,0,1
-.stabn 0xe0,0,0,       158
-.stabf        161
+.stabn 0xa6,0,0,1
+.stabn 0x44,0,30,         4
+.stabn 0x44,0,31,         8
+.stabn 0x44,0,33,        13
+.stabn 0x44,0,34,        16
+.stabn 0x44,0,35,        19
+.stabn 0x44,0,36,        22
+.stabn 0x44,0,37,        26
+.stabn 0x44,0,38,        29
+.stabn 0x44,0,40,        32
+.stabn 0x44,0,41,        35
+.stabn 0x44,0,40,        38
+.stabn 0x44,0,43,        42
+.stabn 0x44,0,44,        47
+.stabn 0x44,0,46,        59
+.stabn 0x44,0,47,        64
+.stabn 0x44,0,49,        69
+.stabn 0x44,0,50,        78
+.stabn 0x44,0,49,        86
+.stabn 0x44,0,53,        92
+.stabn 0x44,0,54,        93
+.stabn 0xc0,0,0,         4
+.stabn 0xe0,0,0,        93
+.stabf         96
 .stabs "C:\Users\pulkomandy\Documents\VTech_Hello/", 0x64,0,0,0
 .stabs "C:\Users\pulkomandy\Documents\VTech_Hello\isr.asm", 0x64,0,0,0
 .stabs "unsigned int:t1=r1;0;65535;",128,0,0,0

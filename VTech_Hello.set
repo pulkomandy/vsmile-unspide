@@ -32,7 +32,7 @@ Count=0
 
 [Option]
 CC_LOC=$(APPDIR)\toolchain\gcc
-CC_FLAG_D=-S -gstabs -Wall -mglobal-var-iram -mISA=1.1
+CC_FLAG_D=-S -gstabs -Wall -mglobal-var-iram -mISA=1.1 -O2
 CC_FLAG_R=-S -O1 -Wall -mglobal-var-iram -mISA=1.1
 AS_LOC=$(APPDIR)\toolchain\xasm16
 AS_FLAG_D=-t2 -d -sr
@@ -45,7 +45,7 @@ ReleaseOpt=1
 IsGenMakefile=1
 IsGenAryfile=1
 IsGenRes=1
-IsInitGlobal=1
+IsInitGlobal=0
 IsGenList=0
 CurIsa=ISA11
 IsWall=1

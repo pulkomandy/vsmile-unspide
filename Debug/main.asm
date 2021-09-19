@@ -1,5 +1,5 @@
 // GCC for GeneralPlus u'nSP version 1.1.0.6
-// Command: C:\PROGRA~1\GENERA~1\UNSPID~1.0\toolchain\cc1.exe C:\Users\PULKOM~1\AppData\Local\Temp\ccwP1KEs.i -fkeep-inline-functions -quiet -dumpbase main.c -mglobal-var-iram -gstabs -Wall -o .\Debug\main.asm
+// Command: C:\PROGRA~1\GENERA~1\UNSPID~1.0\toolchain\cc1.exe C:\Users\PULKOM~1\AppData\Local\Temp\cclPpvnE.i -fkeep-inline-functions -quiet -dumpbase main.c -mglobal-var-ram -gstabs -O2 -Wall -o .\Debug\main.asm
 	.external __sn_func_ptr_sec
 
 // gcc2_compiled.:
@@ -154,275 +154,206 @@ _main:	.proc
 	.dw 0x0d,0x0a
 .code
 LM1:
-	// total=4, vars=4
+	// total=1, vars=1
 	// frame_pointer_needed: 1
 .debug
-	.dw '.stabn 0xa6,0,0,4',0x0d, 0x0a
+	.dw '.stabn 0xa6,0,0,1',0x0d, 0x0a
 .code
 	PUSH BP to [SP]
-	SP-=4
+	SP-=1
 	BP=SP+1
 
-	R1=BP+7
-	[BP+2]=R1	// QImode move
 LBB2:
 .debug
-	.dw '.stabn 0x44,0,28,',0,0
+	.dw '.stabn 0x44,0,30,',0,0
 	.dd LM2-_main
 	.dw 0x0d,0x0a
 .code
 LM2:
-	R1=BP	// QImode move
-	R2=BP+1
-	R1=LC0	// QImode move
-	R3=R2	// QImode move
-	[R3]=R1	// QImode move
+	R1=15648	// QImode move
+	R2=0	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,30,',0,0
+	.dw '.stabn 0x44,0,31,',0,0
 	.dd LM3-_main
 	.dw 0x0d,0x0a
 .code
 LM3:
-	R1=[_SYSTEM_CTRL]	// QImode move
-	R2=0	// QImode move
-	R4=R1	// QImode move
-	[R4]=R2	// QImode move
+	R3=15652	// QImode move
+	R1=21930	// QImode move
+	[R3]=R1	// QImode move
 .debug
-	.dw '.stabn 0x44,0,31,',0,0
+	.dw '.stabn 0x44,0,33,',0,0
 	.dd LM4-_main
 	.dw 0x0d,0x0a
 .code
 LM4:
-	R1=[_WATCHDOG_CLEAR]	// QImode move
-	R2=21930	// QImode move
-	R3=R1	// QImode move
-	[R3]=R2	// QImode move
+	R1=10256	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,33,',0,0
+	.dw '.stabn 0x44,0,34,',0,0
 	.dd LM5-_main
 	.dw 0x0d,0x0a
 .code
 LM5:
-	R1=[_PPU_BG1_SCROLL_X]	// QImode move
-	R2=0	// QImode move
-	R4=R1	// QImode move
-	[R4]=R2	// QImode move
+	R1=10257	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,34,',0,0
+	.dw '.stabn 0x44,0,35,',0,0
 	.dd LM6-_main
 	.dw 0x0d,0x0a
 .code
 LM6:
-	R1=[_PPU_BG1_SCROLL_Y]	// QImode move
-	R2=0	// QImode move
-	R3=R1	// QImode move
-	[R3]=R2	// QImode move
+	R1=10258	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,35,',0,0
+	.dw '.stabn 0x44,0,36,',0,0
 	.dd LM7-_main
 	.dw 0x0d,0x0a
 .code
 LM7:
-	R1=[_PPU_BG1_ATTR]	// QImode move
-	R2=0	// QImode move
-	R4=R1	// QImode move
-	[R4]=R2	// QImode move
+	R3=10259	// QImode move
+	R1=10	// QImode move
+	[R3]=R1	// QImode move
 .debug
-	.dw '.stabn 0x44,0,36,',0,0
+	.dw '.stabn 0x44,0,37,',0,0
 	.dd LM8-_main
 	.dw 0x0d,0x0a
 .code
 LM8:
-	R1=[_PPU_BG1_CTRL]	// QImode move
-	R2=10	// QImode move
-	R3=R1	// QImode move
-	[R3]=R2	// QImode move
+	R1=10265	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,37,',0,0
+	.dw '.stabn 0x44,0,38,',0,0
 	.dd LM9-_main
 	.dw 0x0d,0x0a
 .code
 LM9:
-	R1=[_PPU_BG2_CTRL]	// QImode move
-	R2=0	// QImode move
-	R4=R1	// QImode move
-	[R4]=R2	// QImode move
+	R1=10306	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,38,',0,0
+	.dw '.stabn 0x44,0,40,',0,0
 	.dd LM10-_main
 	.dw 0x0d,0x0a
 .code
 LM10:
-	R1=[_PPU_SPRITE_CTRL]	// QImode move
-	R2=0	// QImode move
-	R3=R1	// QImode move
-	[R3]=R2	// QImode move
+	R4=_tilemap	// QImode move
+	R3=32	// QImode move
+L6:
 .debug
-	.dw '.stabn 0x44,0,40,',0,0
+	.dw '.stabn 0x44,0,41,',0,0
 	.dd LM11-_main
 	.dw 0x0d,0x0a
 .code
 LM11:
-	R1=0	// QImode move
-	[BP]=R1	// QImode move
-L3:
-	R1=[BP]	// QImode move
-	CMP R1,2047	// QImode compare
-	NSJNA L6	//QImode LEU
-	PC=L4	// jump
-L6:
+	R1=R2	// QImode move
+	R1 = R1 + R4	//addqi3
+	[R1]=R3	// QImode move
 .debug
-	.dw '.stabn 0x44,0,41,',0,0
+	.dw '.stabn 0x44,0,40,',0,0
 	.dd LM12-_main
 	.dw 0x0d,0x0a
 .code
 LM12:
-	R1=_tilemap	// QImode move
-	R2=[BP]	// QImode move
-	R1 = R1 + R2	//addqi3
-	R2=32	// QImode move
-	R4=R1	// QImode move
-	[R4]=R2	// QImode move
+	R2=R2+1
+	CMP R2,2047	// QImode compare
+	NSJNA L6	//QImode LEU
 .debug
-	.dw '.stabn 0x44,0,40,',0,0
+	.dw '.stabn 0x44,0,43,',0,0
 	.dd LM13-_main
 	.dw 0x0d,0x0a
 .code
 LM13:
-L5:
-	R1=[BP]	// QImode move
-	R2=R1+1
-	[BP]=R2	// QImode move
-	PC=L3	// jump
-L4:
+	R1=10260	// QImode move
+	R2=_tilemap	// QImode move
+	[R1]=R2	// QImode move
 .debug
-	.dw '.stabn 0x44,0,43,',0,0
+	.dw '.stabn 0x44,0,44,',0,0
 	.dd LM14-_main
 	.dw 0x0d,0x0a
 .code
 LM14:
-	R1=[_PPU_BG1_TILE_ADDR]	// QImode move
-	R2=_tilemap	// QImode move
-	R3=R1	// QImode move
-	[R3]=R2	// QImode move
+	R3=6	// QImode move
+	[SP--]=R3	// QImode move
+	//split R1=[_RES_FONT_BIN_SA]
+	R1=[_RES_FONT_BIN_SA]	// QImode move
+	R2=[_RES_FONT_BIN_SA+1]	// QImode move
+	//split [SP--]=R1
+	PUSH R1,R2 to [SP]	// peepholes pushqi2
+	CALL __rshu2	// call with return value
+	SP = SP + 3	//SP
+	[10272]=R1	// QImode move
 .debug
-	.dw '.stabn 0x44,0,44,',0,0
+	.dw '.stabn 0x44,0,46,',0,0
 	.dd LM15-_main
 	.dw 0x0d,0x0a
 .code
 LM15:
-	R4=[_PPU_BG1_SEGMENT_ADDR]	// QImode move
-	[BP+3]=R4	// QImode move
-	//split R1=[_RES_FONT_BIN_SA]
-	R1=[_RES_FONT_BIN_SA]	// QImode move
-	R2=[_RES_FONT_BIN_SA+1]	// QImode move
-	R3=6	// QImode move
-	[SP--]=R3	// QImode move
-	PUSH R1,R2 to [SP]	// pushhi
-	CALL __rshu2	// call with return value
-	SP = SP + 3	//SP
-	R3=R1	// QImode move
-	R1=[BP+3]	// QImode move
-	[R1]=R3	// QImode move
+	R2=11008	// QImode move
+	R1=30543	// QImode move
+	[R2]=R1	// QImode move
 .debug
-	.dw '.stabn 0x44,0,46,',0,0
+	.dw '.stabn 0x44,0,47,',0,0
 	.dd LM16-_main
 	.dw 0x0d,0x0a
 .code
 LM16:
-	R1=[_PPU_COLOR]	// QImode move
-	R2=30543	// QImode move
-	R3=R1	// QImode move
-	[R3]=R2	// QImode move
+	R2=11009	// QImode move
+	R1=272	// QImode move
+	[R2]=R1	// QImode move
 .debug
-	.dw '.stabn 0x44,0,47,',0,0
+	.dw '.stabn 0x44,0,49,',0,0
 	.dd LM17-_main
 	.dw 0x0d,0x0a
 .code
 LM17:
-	R2=[_PPU_COLOR]	// QImode move
-	R1=R2+1
-	R2=272	// QImode move
-	R4=R1	// QImode move
-	[R4]=R2	// QImode move
+	R2=0	// QImode move
+	R1=[LC0]	// QImode move
+	NSJZ L9	//QImode EQ
+	R3=LC0	// QImode move
+	[BP]=R3	// QImode move
+L11:
 .debug
-	.dw '.stabn 0x44,0,49,',0,0
+	.dw '.stabn 0x44,0,50,',0,0
 	.dd LM18-_main
 	.dw 0x0d,0x0a
 .code
 LM18:
-	R1=0	// QImode move
-	[BP]=R1	// QImode move
-L7:
-	R1=BP	// QImode move
-	R3=BP+1
-	R1=R3	// QImode move
-	R2=[R1]	// QImode move
-	R1=R2	// QImode move
-	R1 = R1 + [BP]	//addqi3
-	R3=R1	// QImode move
-	R2=[R3]	// QImode move
-	CMP R2,0	// QImode test
-	NSJNZ L10	//QImode NE
-	PC=L8	// jump
-L10:
+	R1=R2+131
+	R4=_tilemap	// QImode move
+	R1 = R1 + R4	//addqi3
+	R3=[BP]	// QImode move
+	R3=[R3]
+	[R1]=R3	// QImode move
 .debug
-	.dw '.stabn 0x44,0,50,',0,0
+	.dw '.stabn 0x44,0,49,',0,0
 	.dd LM19-_main
 	.dw 0x0d,0x0a
 .code
 LM19:
-	R1=[BP]	// QImode move
-	R2=R1+131
-	R3=_tilemap	// QImode move
-	R1=R3	// QImode move
-	R1 = R1 + R2	//addqi3
-	R2=BP	// QImode move
-	R4=BP+1
-	R2=R4	// QImode move
-	R3=[R2]	// QImode move
-	R2=R3	// QImode move
-	R2 = R2 + [BP]	//addqi3
-	R4=R2	// QImode move
-	R3=[R4]	// QImode move
-	R2=R1	// QImode move
-	[R2]=R3	// QImode move
+	R4=[BP]	// QImode move
+	R4=R4+1
+	[BP]=R4	// QImode move
+	R2=R2+1
+	R1=[R4]	// QImode move
+	NSJNZ L11	//QImode NE
+L9:
 .debug
-	.dw '.stabn 0x44,0,49,',0,0
+	.dw '.stabn 0x44,0,53,',0,0
 	.dd LM20-_main
 	.dw 0x0d,0x0a
 .code
 LM20:
-L9:
-	R1=[BP]	// QImode move
-	R2=R1+1
-	[BP]=R2	// QImode move
-	PC=L7	// jump
-L8:
+	R1=0	// QImode move
 .debug
-	.dw '.stabn 0x44,0,53,',0,0
+	.dw '.stabn 0x44,0,54,',0,0
 	.dd LM21-_main
 	.dw 0x0d,0x0a
 .code
 LM21:
-	R1=0	// QImode move
-	PC=L2	// jump
-.debug
-	.dw '.stabn 0x44,0,54,',0,0
-	.dd LM22-_main
-	.dw 0x0d,0x0a
-.code
-LM22:
 LBE2:
-.debug
-	.dw '.stabn 0x44,0,54,',0,0
-	.dd LM23-_main
-	.dw 0x0d,0x0a
-.code
-LM23:
-L2:
 
-	SP+=4
+	SP+=1
 	POP BP from [SP]
 	RETF
 	.endp	// end of main
@@ -432,12 +363,6 @@ L2:
 	.dd LBB2-_main
 	.dw 0x0d,0x0a
 .code
-.debug
-	.dw '.stabs "i:1",128,0,0,0',0x0d,0x0a
-.CODE
-.debug
-	.dw '.stabs "message:22=*2",128,0,0,1',0x0d,0x0a
-.CODE
 .debug
 	.dw '.stabn 0xe0,0,0,',0,0
 	.dd LBE2-_main
@@ -449,8 +374,8 @@ L2:
 	.dw 0x0d,0x0a
 .code
 LME1:
-.iram
-_tilemap:	.dw 2048 dup(0)
+.ram
+_tilemap:	.dw 2048 dup(?)
 .external _RES_FONT_BIN_SA
 .external __rshu2
 	.end

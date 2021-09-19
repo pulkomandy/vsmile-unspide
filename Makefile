@@ -1,6 +1,6 @@
 #####################################################################
 #																	 
-#	Created by u'nSP IDE V4.0.0		22:02:31	09/19/21
+#	Created by u'nSP IDE V4.0.0		22:51:08	09/19/21
 #
 #####################################################################
 
@@ -53,7 +53,7 @@ ARYFILE	= "$(OUTDIR)\VTech_Hello.ary"
 
 SBMFILE	= "$(OUTDIR)\VTech_Hello.sbm"
 
-OPT	= -S -gstabs -Wall -mglobal-var-iram
+OPT	= -S -gstabs -Wall -O2 -mglobal-var-ram
 
 ASFLAGS	= -t2 -d -sr
 
