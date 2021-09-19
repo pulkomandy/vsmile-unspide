@@ -1,0 +1,25 @@
+Version: 3.0
+Options: tsk
+Obj: "C:\Program Files\Generalplus\unSPIDE 4.0.0\startupcode\startupD.obj"
+Obj: "C:\Users\pulkomandy\Documents\VTech_Hello\Debug\main.obj"
+Obj: "C:\Users\pulkomandy\Documents\VTech_Hello\Debug\isr.obj"
+Obj: "C:\Users\pulkomandy\Documents\VTech_Hello\Debug\Resource.obj"
+Obj: "C:\Users\pulkomandy\Documents\VTech_Hello\Debug\font_bin.res"
+Lib: "C:\Program Files\Generalplus\unSPIDE 4.0.0\library\CMacro\CMacro1016.lib"
+Output: "C:\Users\pulkomandy\Documents\VTech_Hello\Debug\VTech_Hello.TSK"
+Locate: __sn_init_table at 8000
+;Align: __sn_section_RES_FONT_BIN in "font_bin.res" with 40 
+;Locate: unSP_StartUp in "startupD.obj" at 8009 
+;Align: unSP_StartUp in "startupD.obj" with 0 
+;Locate: IRAM in "main.obj" at 812A  linkat 8 
+;Align: IRAM in "main.obj" with 0 
+;Locate: CODE in "main.obj" at 804E 
+;Align: CODE in "main.obj" with 0 
+;Locate: __sn_section_RES_FONT_BIN in "font_bin.res" at 8940 
+;Locate: CODE in "_GPTag" of "CMacro1016.lib"  at 8122 
+;Align: CODE in "_GPTag" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "rshu2" of "CMacro1016.lib"  at 80EF 
+;Align: CODE in "rshu2" of "CMacro1016.lib"  with 0 
+;Locate: __sn_init_table in "<internal obj.>" of "<internal lib.>"  at 8000 
+;Align: __sn_init_table in "<internal obj.>" of "<internal lib.>"  with 0 
+;Locate: __sn_init_table at 8000 

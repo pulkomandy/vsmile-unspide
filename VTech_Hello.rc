@@ -1,0 +1,12 @@
+# Begin Project
+# Begin SubItem "VTech_Hello  Resources"
+# Begin Source File
+SOURCE=.\font.bin
+USEPARAM=FALSE
+PARAM=
+ID=RES_FONT_BIN
+EXPORT=1
+SPECIFICFLAG=0
+# End Source File
+# End SubItem
+# End Project
